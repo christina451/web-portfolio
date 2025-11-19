@@ -28,26 +28,20 @@
                 </p>
             </div>
             <h5 class="intro-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sint, dolore cum repudiandae nisi quae perferendis odit animi totam reprehenderit doloribus necessitatibus, pariatur sunt quod perspiciatis. Minima corrupti modi consequuntur?
+                Hello, my name is Christina Baxter, and I am a student majoring in Computer Science. I attend the University of Texas at Dallas, and plan to graduate in May 2027. Some of my interests include hiking, playing tennis, and of course, programming. Please feel free to check out my Github and LinkedIn below!
             </h5>
             <div class="links-container">➡️
                 <a href="mailto:cab230016@utdallas.edu">Email Me</a>
                 <a target="_blank" href="https://github.com/christina451">Github</a>
                 <a target="_blank" href="https://www.linkedin.com/in/christina-baxter-utd/">LinkedIn</a>
             </div>
-            <div id="play-game">
-                <button onclick="playGame()">Play Game??</button>
-            </div>
-            <div style="display: none;" class="color-div">
-                <h4>Pick a Color</h4>
-                <p style="display: none;">Great... now it's ruined</p>
-                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff" />
-                <button style="display: none;" onclick="resetColor()">Reset</button>
+            <div id="toggle-mode">
+                <button onclick="toggleMode()">Toggle Mode</button>
             </div>
         </section>
         <section>
             <h2>Skills</h2>
-            <table>
+            <table class="skills-section">
                 <thead>
                     <tr>
                         <th>Area</th>
@@ -56,18 +50,18 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>JavaScript</td>
-                        <td>Technology | Technology | Technology | Technology</td>
+                        <td>Languages</td>
+                        <td>JavaScript | C++ | MIPS Assembly | Java</td>
                     </tr>
                     <tr>
-                        <td>Python</td>
-                        <td>Technology | Technology | Technology | Technology</td>
+                        <td>Web Development</td>
+                        <td>HTML | CSS | React | Node.js | Github</td>
                     </tr><tr>
-                        <td>Web</td>
-                        <td>Technology | Technology | Technology | Technology</td>
+                        <td>Backend</td>
+                        <td>MongoDB | Mongoose | JWT | bcrypt</td>
                     </tr><tr>
-                        <td>Design</td>
-                        <td>Technology | Technology | Technology | Technology</td>
+                        <td>Frontend</td>
+                        <td>React | Vite | Tailwind | CSS</td>
                     </tr>
                 </tbody>
             </table>
@@ -77,58 +71,58 @@
             <div class="cards-grid">
                 <div class="project-card">
                     <div>
-                        <p>Month, day, year</p>
-                        <h4>Christina</h4>
+                        <p>November 2025</p>
+                        <h4>This Portfolio Page!</h4>
                         <div class="tech-list">
                             <div class="card-button-secondary">
-                                <p>NextJS</p>
+                                <p>HTML</p>
                             </div>
                             <div class="card-button-secondary">
-                                <p>NextJS</p>
+                                <p>CSS</p>
                             </div><div class="card-button-secondary">
-                                <p>NextJS</p>
+                                <p>JavaScript</p>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia ut quidem nisi voluptate saepe optio at reiciendis beatae, in recusandae necessitatibus eum quod ipsum vitae a, asperiores porro possimus?</p>
+                            <p>Used these skills to make this interactive portfolio page...</p>
                             <div class="project-links">
                                 <a target="_blank" href="/">Live</a>
-                                <a target="_blank" href="/">Github</a>
+                                <a target="_blank" href="https://github.com/christina451"">Github</a>
                             </div>
                         </div>
                         <div class="img-div">
-                            <img class="big-img" src="public/snow.png" alt="image" />
+                            <img class="big-img" src="data:image/jpeg;base64,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" alt="image" />
                         </div>
                     </div>
                 </div>
 
                                 <div class="project-card">
                     <div>
-                        <p>Month, day, year</p>
-                        <h4>Christina</h4>
+                        <p>October 2025</p>
+                        <h4>Full-Stack Budgeting App</h4>
                         <div class="tech-list">
                             <div class="card-button-secondary">
-                                <p>NextJS</p>
+                                <p>Node.js</p>
                             </div>
                             <div class="card-button-secondary">
-                                <p>NextJS</p>
+                                <p>MongoDB</p>
                             </div><div class="card-button-secondary">
-                                <p>NextJS</p>
+                                <p>Express.js</p>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia ut quidem nisi voluptate saepe optio at reiciendis beatae, in recusandae necessitatibus eum quod ipsum vitae a, asperiores porro possimus?</p>
+                            <p>Used these technologies to make a full stack budgeting app</p>
                             <div class="project-links">
                                 <a target="_blank" href="/">Live</a>
                                 <a target="_blank" href="/">Github</a>
                             </div>
                         </div>
                         <div class="img-div">
-                            <img class="big-img" src="public/snow.png" alt="image" />
+                            <img class="big-img" src="data:image/png;base64,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" alt="image" />
                         </div>
                     </div>
                 </div>
 
                                 <div class="project-card">
                     <div>
-                        <p>Month, day, year</p>
-                        <h4>Christina</h4>
+                        <p>November 2025</p>
+                        <h4>Project 3</h4>
                         <div class="tech-list">
                             <div class="card-button-secondary">
                                 <p>NextJS</p>
@@ -159,33 +153,10 @@
     </footer>
     <script>
         const body = document.querySelector('body')
-        const colorInput = document.getElementById('color-picker')
-        const colorDiv = document.querySelector('.color-div')
-        const hiddenText = document.querySelector('.color-div p')
-        const resetBtn = document.querySelector('.color-div button')
-        const playBtn = document.getElementById('play-game')
+        const table = document.querySelector('.skills-section')
 
-        function playGame() {
-            colorDiv.style.display = 'block'
-            playBtn.style.display = 'none'
-        }
-
-        function changeColor() {
-            const selectedColor = colorInput.value
-            body.style.background = selectedColor
-            resetBtn.style.display = 'block'
-            hiddenText.style.display = 'block'
-            colorInput.style.display = 'none'
-        }
-
-        function resetColor() {
-            body.style.background = 'white'
-            colorInput.style.display = 'block'
-            playBtn.style.display = 'block'
-
-            hiddenText.style.display = 'none'
-            resetBtn.style.display = 'none'
-            colorDiv.style.display = 'none'
+        function toggleMode() {
+            document.body.classList.toggle('dark');
         }
     </script>
 

@@ -56,12 +56,6 @@ section {
     padding: 1rem 0;
 }
 
-.color-div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
 .cards-grid {
     display: flex;
     flex-direction: column;
@@ -105,4 +99,28 @@ section {
     .project-card .img-div {
         max-width: 30%;
     }
+}
+
+.skills-section {
+    color: black;
+}
+
+
+body.dark {
+    background: black;
+    color: white;
+}
+
+.skills-section,
+.skills-section th,
+.skills-section td {
+    background: white;
+    color: black;
+}
+
+body.dark .skills-section,
+body.dark .skills-section th,
+body.dark .skills-section td {
+    background: black; 
+    color: white;
 }
